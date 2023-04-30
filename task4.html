@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator with JavaScript</title>
+    <link rel="stylesheet" href="Task4.css">
+    <script src="Task4.js" defer></script>
+</head>
+<body>
+    <h1 class="title">BMI Calculator</h1>
+    <div class="wrapper">    
+    <div class="container"></div>
+                                    
+        <label class="Gender">Gender:</label><br><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label class="gender" for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label class="gender" for="female">Female</label><br><br>
+        <p>Height in CM:
+            <input type="text" id="height"><br><span id="height_error"></span>
+        </p>
+        <p>Weight in KG:
+            <input type="text" id="weight"><br><span id="weight_error"></span>
+        </p><br><br>
+        <button id="btn">Calculate</button> 
+        <button id="btn">Restart</button>
+        
+        <p id="output"></p>
+    </div>
+</body>
+</html>
